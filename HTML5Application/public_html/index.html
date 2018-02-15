@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+
+    <head>
+        <script type="text/javascript" src="jquery.js"></script>
+        <title>Survive the Night</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <div id="console">
+        
+            <p id="message_startgame">Welcome to my game! You must type commands to get through it.</p>
+            
+            <p id="area_northcorridor"> You are in the north corridor. There is a sword on the ground.</p>
+            
+            <p id="message_help" style="display: none">Here is a list of commands:</p>
+            <!-- Placeholder: this is where everything will be inserted before -->
+            <div id="placeholder"></div>
+            
+            <form onsubmit="return false;">
+                <input type="text" size="50" autofocus="autofocus" id="command_line">
+                
+            </form>
+            
+            <script type="text/javascript" src="game.js"></script>
+            
+        </div>
+    </body>
+
+</html>
